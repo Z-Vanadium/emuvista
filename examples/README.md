@@ -12,5 +12,7 @@ emu = build_emulator()
 # Add services and DNS records, then render and compile.
 ```
 
+[H30_cloud_drive_service](H30_cloud_drive_service/) uses DshAgentService to deploy Cloud Drive agents.
+
 [H99_virtual_world](H99_virtual_world/) combines email, payment and banks.
 [E99](../experiments/E99_virtual_world/) adds five agents to H99.
