@@ -1,0 +1,8 @@
+name: chat-tools
+plugins:
+  - id: chat
+    package: ../../../agent-plugins/chat-client
+    preset: resident
+    config:
+      endpoint: ws://chat.e30.seedvista.test:6060
+      apiKey: AQEAAAABAAD_rAp4DJh05a1HAwFT3A6K

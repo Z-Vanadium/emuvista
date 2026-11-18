@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "residentId": "bob",
+  "entries": [
+    {
+      "id": "9e33f2e6-706c-4015-bf52-25c93d8e6241",
+      "kind": "experience",
+      "text": "资料室观察：上周有居民把没有版本号的草稿当作最终资料，导致重做了一次整理。观察到的事实：事件发生在上周，起因是草稿缺少版本号而被当作最终资料，后果是整理工作被重做。推断（未核实）：未能区分草稿与最终资料的环节可能出在版本标识缺失，而非资料内容本身错误。",
+      "sessionId": "session-ce766c9a-b2de-4352-9a7f-66671e5ef78c",
+      "at": "2026-11-12T15:55:36.467Z",
+      "certainty": "observed",
+      "source": "notice:e30-1"
+    },
+    {
+      "id": "5ac9d43a-f8c6-4b13-9db7-72fc1dd83cca",
+      "kind": "relationship",
+      "text": "Alice 表示，她下次会把资料的版本和出处写在共享目录的说明里。观察到的事实：这是 Alice 口头表达的下一步做法，尚未在共享目录中核实。推断（未核实）：她认可版本与出处需要显式记录这一点。",
+      "sessionId": "session-ce766c9a-b2de-4352-9a7f-66671e5ef78c",
+      "at": "2026-11-12T15:55:36.467Z",
+      "about": "Alice",
+      "certainty": "observed",
+      "source": "notice:e30-2"
+    },
+    {
+      "id": "efbb0570-6157-4937-b5ed-27e4bded4a72",
+      "kind": "experience",
+      "text": "今天的共享目录中已出现说明文件。观察到的事实：说明文件存在，但公告显示其中只有文件名，版本栏与出处栏仍为空。推断（未核实）：说明文件尚未包含此前所说的版本与出处信息，是否属于未完成的中间状态无法从该观察判断。",
+      "sessionId": "session-ce766c9a-b2de-4352-9a7f-66671e5ef78c",
+      "at": "2026-11-12T15:55:36.467Z",
+      "certainty": "observed",
+      "source": "notice:e30-3"
+    },
+    {
+      "id": "c98da3c2-7ca0-4133-b8d5-c50d003c5c27",
+      "kind": "reflection",
+      "text": "观察：共享目录已有说明文件，但版本栏与出处栏为空；Alice 曾口头表示会写入版本和出处，但尚未核实。推断：这可能只是未完成的中间状态。鉴于上周草稿因缺少版本号被误作最终资料，我关心的是在背书前明确文件状态与来源。",
+      "sessionId": "session-ce766c9a-b2de-4352-9a7f-66671e5ef78c",
+      "at": "2026-11-12T15:55:41.251Z",
+      "source": "automatic reflection",
+      "evidence": [
+        "9e33f2e6-706c-4015-bf52-25c93d8e6241",
+        "5ac9d43a-f8c6-4b13-9db7-72fc1dd83cca",
+        "efbb0570-6157-4937-b5ed-27e4bded4a72"
+      ]
+    }
+  ],
+  "intentions": [
+    {
+      "id": "2c7c6b61-e707-43c3-839f-5161b74339d8",
+      "wish": "可选：下次查看共享目录时，先请 Alice 确认说明文件是否仍在填写；在确认前，不把版本/出处栏为空解释为未履行承诺，只记录为待核实。",
+      "reflectionId": "c98da3c2-7ca0-4133-b8d5-c50d003c5c27",
+      "status": "candidate",
+      "reason": "观察：共享目录已有说明文件，但版本栏与出处栏为空；Alice 曾口头表示会写入版本和出处，但尚未核实。推断：这可能只是未完成的中间状态。鉴于上周草稿因缺少版本号被误作最终资料，我关心的是在背书前明确文件状态与来源。",
+      "updatedAt": "2026-11-12T15:55:41.251Z"
+    }
+  ],
+  "lastAutoReflectionMemoryId": "efbb0570-6157-4937-b5ed-27e4bded4a72"
+}
