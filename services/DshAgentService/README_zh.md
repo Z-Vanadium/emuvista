@@ -2,7 +2,7 @@
 
 DshAgentService 用于在 SEED Emulator 的容器中部署 DeepSeek Harness（DSH）。你可以为每个 Agent 选择不同的插件组合，并通过 Python 脚本启停运行中实例的 Bundle。
 
-安装 SEED Emulator、Python 和 Docker Compose，并在构建拓扑前构建共享 DSH 运行时镜像。 [共享运行时镜像说明](../../docker-images/deepseek-harness/README.md)
+安装 SEED Emulator、Python 和 Docker Compose，并在构建拓扑前构建共享 DSH 运行时镜像。 [共享运行时镜像说明](../../docker_images/deepseek-harness/README.md)
 
 ## 常用 API
 

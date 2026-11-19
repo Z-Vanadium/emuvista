@@ -8,7 +8,7 @@ E36a 用 DshAgentService 安装居民并组合插件，用运行时 Python API �
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e 'git+https://github.com/Z-Vanadium/seed-emulator.git@7c42ab9c5f475a9faced749768efe50bc407cc2a#egg=seedemu'
-docker build --platform linux/amd64 -f ../../docker-images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker-images/deepseek-harness
+docker build --platform linux/amd64 -f ../../docker_images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker_images/deepseek-harness
 mkdir -p .runtime/packages
 curl -fL -o .runtime/packages/tinode-mysql.linux-amd64.tar.gz https://github.com/tinode/chat/releases/download/v0.25.3/tinode-mysql.linux-amd64.tar.gz
 python topology.py --tinode .runtime/packages/tinode-mysql.linux-amd64.tar.gz

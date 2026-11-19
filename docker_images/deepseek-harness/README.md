@@ -16,7 +16,7 @@
 进入本目录：
 
 ```bash
-cd /path/to/project/docker-images/deepseek-harness
+cd /path/to/project/docker_images/deepseek-harness
 ```
 
 构建公共镜像：

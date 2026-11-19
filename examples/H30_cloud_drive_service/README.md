@@ -12,7 +12,7 @@ Use Linux Docker Engine, Docker Compose v2, Python 3.10+, and amd64. Run these c
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-docker build --platform linux/amd64 -f ../../docker-images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker-images/deepseek-harness
+docker build --platform linux/amd64 -f ../../docker_images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker_images/deepseek-harness
 
 python CloudDriveTopology.py
 cd output

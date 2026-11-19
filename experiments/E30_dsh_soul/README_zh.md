@@ -24,7 +24,7 @@ E30 在自己的 [bundles 目录](bundles/)维护 Cloud、Claw 和 Soul 的装�
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-docker build --platform linux/amd64 -f ../../docker-images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker-images/deepseek-harness
+docker build --platform linux/amd64 -f ../../docker_images/deepseek-harness/Dockerfile.dsh-runtime -t seedemu-dsh-runtime:0.2.0-rc.2 ../../docker_images/deepseek-harness
 mkdir -p .runtime/packages
 curl --fail --location --output .runtime/packages/tinode-mysql.linux-amd64.tar.gz https://github.com/tinode/chat/releases/download/v0.25.3/tinode-mysql.linux-amd64.tar.gz
 python E30Topology.py

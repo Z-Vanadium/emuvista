@@ -4,7 +4,7 @@
 
 DshAgentService deploys DeepSeek Harness (DSH) agents in SEED Emulator containers. You can choose which plugin bundles each agent starts with, then use a Python script to inspect, enable, or disable installed bundles while DSH is running.
 
-Install SEED Emulator, Python, and Docker Compose, then build the shared DSH runtime image before building the topology. [Shared runtime image guide](../../docker-images/deepseek-harness/README.md)
+Install SEED Emulator, Python, and Docker Compose, then build the shared DSH runtime image before building the topology. [Shared runtime image guide](../../docker_images/deepseek-harness/README.md)
 
 ## Common APIs
 
